@@ -3,5 +3,6 @@ export const ROUTES={
     FEED:'/feed',
     PROFILE:'/profile',
     EDIT_PROFILE:'/editProfile',
+    CREATE_POST : '/createPost'
 
 }

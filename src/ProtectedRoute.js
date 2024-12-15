@@ -19,9 +19,9 @@ const ProtectedRoutes = () => {
   }
 
   return authLogin ? (
-    <>
+    <div className="p-4">
       <Outlet />
-    </>
+    </div>
   ) : (
     <Navigate to={ROUTES.LOGIN} replace />
   );

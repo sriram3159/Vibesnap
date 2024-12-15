@@ -1,0 +1,22 @@
+export const IMAGES = {
+  LOGO: require("./Logo.webp"),
+  GOOGLE: require("./google.webp"),
+  LOGIN_IMG_1: require("./login_img_1.webp"),
+  LOGIN_IMG_2: require("./login_img_2.webp"),
+  LOGIN_IMG_3: require("./login_img_3.webp"),
+  LOGIN_IMG_4: require("./login_img_4.webp"),
+  LOGIN_IMG_5: require("./login_img_5.webp"),
+  LOGIN_IMG_6: require("./login_img_6.webp"),
+  LOGIN_IMG_7: require("./login_img_7.webp"),
+  LOGIN_IMG_8: require("./login_img_8.webp"),
+  LOGIN_IMG_9: require("./login_img_9.webp"),
+  TWITTER:require("./twitter.webp"),
+  FACEBOOK:require("./facebook.webp"),
+  REDDIT:require("./reddit.webp"),
+  DISCORD:require("./discord.webp"),
+  WHATSAPP:require("./whatsapp.webp"),
+  MESSENGER:require("./messenger.webp"),
+  TELEGRAM:require("./telegram.webp"),
+  INSTAGRAM:require("./instagram.webp"),
+  COPY:require("./copy.webp")
+};

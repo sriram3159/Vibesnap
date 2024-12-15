@@ -4,7 +4,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      kumbh: ['Kumbh Sans', 'sans-serif'], // Add the font here
+    },
   },
   plugins: [],
 }
