@@ -14,7 +14,9 @@ export const savePost = async (text, imageUrl) => {
         feedMsg: text,
         imageUrl: imageUrl,
         createdAt: new Date(),
-        likes:0,
+        likes:[],
+        email:userData?.email,
+        bio:"",
       })
 
     console.log("Document written with ID:", docRef.id);
